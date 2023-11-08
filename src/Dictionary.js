@@ -17,7 +17,7 @@ export default function Dictionary() {
     <div className="Dictionary">
       <form className="d-flex justify-content-center mt-5" onSubmit={search}>
         <input
-          className="w-75"
+          className="w-50"
           type="search"
           onChange={handleKeywordChange}
           placeholder="Search for a word..."
