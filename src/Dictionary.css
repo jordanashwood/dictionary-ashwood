@@ -1,2 +1,17 @@
-.Dictionary {
+submit i {
+  background-color: purple;
+  color: white;
+  padding: 14px;
+  border-radius: 25px;
+  right: 45px;
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+submit i:hover {
+  background-color: darkslateblue;
+}
+.Dictionary input {
+  padding: 8px 20px;
+  border-radius: 25px;
+  outline: solid 1px #b6b6b6;
 }
