@@ -15,7 +15,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form className="d-flex justify-content-center" onSubmit={search}>
+      <form className="d-flex justify-content-center mt-5" onSubmit={search}>
         <input
           className="w-75"
           type="search"
