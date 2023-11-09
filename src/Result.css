@@ -5,3 +5,13 @@
 .keyword {
   font-size: 100px;
 }
+
+@media screen and (max-width: 900px) {
+  .keyword {
+    font-size: 60px;
+  }
+  .Result section {
+    margin: 20px 40px;
+    padding: 50px;
+  }
+}
