@@ -4,10 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid">
         <header className="App-header"></header>
         <Dictionary defaultKeyword="welcome" />
-        <footer>
+        <footer className="text-center">
           This project was coded by{" "}
           <a
             href="https://www.linkedin.com/in/jordan-ashwood/"

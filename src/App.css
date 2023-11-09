@@ -1,6 +1,21 @@
+.App {
+  background-color: #f6907c;
+}
 footer {
-  background-color: lightgray;
+  background-color: #c595c6;
+  color: white;
   margin: 30px 0;
-  font-size: 10px;
+  font-size: 12px;
   padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: #6155a6;
+  font-weight: 600;
+  transition: all 250ms ease-in-out;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #352c67;
+  font-weight: 800;
 }
