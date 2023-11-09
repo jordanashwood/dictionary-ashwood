@@ -1,7 +1,7 @@
-input {
+input .form-control {
   min-width: 200px;
 }
-submit i {
+.search-btn i {
   background-color: purple;
   color: white;
   padding: 14px;
@@ -10,7 +10,7 @@ submit i {
   position: relative;
   transition: all 300ms ease-in-out;
 }
-submit i:hover {
+.search-btn i:hover {
   background-color: darkslateblue;
 }
 .Dictionary input {

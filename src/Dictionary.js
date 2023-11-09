@@ -56,9 +56,9 @@ export default function Dictionary(props) {
             placeholder="Search for a word..."
             defaultValue={props.defaultKeyword}
           />
-          <submit onSubmit={handleSubmit}>
+          <input type="submit" className="btn search-btn">
             <i class="fa-solid fa-magnifying-glass"></i>
-          </submit>
+          </input>
         </form>
         <Results definition={definition} />
         <Photos photos={photos} />
