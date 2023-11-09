@@ -4,6 +4,12 @@
   outline: solid 1px #7381ad;
   min-width: 300px;
 }
+.search-section h1 {
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin: -50px 0px 50px;
+}
 .search-section {
   display: flex;
   margin-left: -25px;
