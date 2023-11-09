@@ -1,16 +1,41 @@
-import "./App.css";
 import Dictionary from "./Dictionary";
+import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header"></header>
-        <main>
-          <Dictionary defaultKeyword="hello" />
-        </main>
-        <footer className="text-center mt-5">Coded by Jordan Ashwood</footer>
+        <Dictionary defaultKeyword="welcome" />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/jordan-ashwood/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jordan Ashwood
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/jordanashwood/dictionary-ashwood"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://dictionary-ashwood.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
 }
+
+export default App;
