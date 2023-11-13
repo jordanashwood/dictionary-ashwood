@@ -3,6 +3,7 @@ import axios from "axios";
 import Result from "./Result";
 import Photos from "./Photos";
 import "./Dictionary.css";
+import Synonyms from "./Synonyms";
 
 export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
